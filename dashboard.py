@@ -3,7 +3,7 @@
 ResearchBridge - Professional Dashboard
 Advanced machine learning platform for academic journal recommendations
 """
-
+import os
 import streamlit as st
 import requests
 import pandas as pd
