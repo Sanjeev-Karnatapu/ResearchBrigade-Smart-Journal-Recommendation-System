@@ -10,7 +10,8 @@ import time
 import requests
 import webbrowser
 from pathlib import Path
-
+subprocess.Popen(["uvicorn", "launch_api:app", "--host", "0.0.0.0", "--port", "8000"])
+time.sleep(5)
 def check_api_status():
     """Check if the API is running."""
     try:
