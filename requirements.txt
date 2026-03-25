@@ -9,6 +9,7 @@ databases>=0.8.0                 # Async helper for FastAPI (optional)
 # --- Config / I/O ------------------------------------------------------
 python-dotenv>=1.0.0             # .env parsing
 pydantic>=2.0.0                  # request / response models (updated for compatibility)
+pydantic-settings>=2.0.0
 requests>=2.31.0                 # OpenAlex & other HTTP calls
 
 # --- Machine-learning core --------------------------------------------
