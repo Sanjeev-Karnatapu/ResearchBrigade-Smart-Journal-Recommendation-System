@@ -113,7 +113,7 @@ finally:
     _session.close()
 
 # Pre-load cache on startup
-get_journal_cache()
+#get_journal_cache()
 
 def extract_keywords(text: str, top_n: int = 10):
     """Extract top keywords from text using TF-IDF"""
